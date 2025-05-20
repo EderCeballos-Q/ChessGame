@@ -1,0 +1,17 @@
+digraph tree {
+    "Partida" [fillcolor=gold, style=filled];
+    "Pawn from e2 to e4" [fillcolor=white, style=filled];
+    "Pawn from a7 to a6" [fillcolor=gray, style=filled];
+    "Bishop from f1 to e2" [fillcolor=white, style=filled];
+    "Pawn from a6 to a5" [fillcolor=gray, style=filled];
+    "Knight from g1 to f3" [fillcolor=white, style=filled];
+    "Pawn from a5 to a4" [fillcolor=gray, style=filled];
+    "King from e1 to g1" [fillcolor=white, style=filled];
+    "Partida" -> "Pawn from e2 to e4";
+    "Pawn from e2 to e4" -> "Pawn from a7 to a6";
+    "Pawn from a7 to a6" -> "Bishop from f1 to e2";
+    "Bishop from f1 to e2" -> "Pawn from a6 to a5";
+    "Pawn from a6 to a5" -> "Knight from g1 to f3";
+    "Knight from g1 to f3" -> "Pawn from a5 to a4";
+    "Pawn from a5 to a4" -> "King from e1 to g1";
+}
