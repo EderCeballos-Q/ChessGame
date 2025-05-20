@@ -42,7 +42,7 @@ venv\Scripts\activate
 Con el entorno virtual activado, ejecuta:
 
 ```bash
-pip install anytree graphviz
+pip install anytree graphviz IPython
 ```
 
 ---
